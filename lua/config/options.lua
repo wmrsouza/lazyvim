@@ -34,6 +34,7 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 opt.wrap = true
+opt.textwidth = 100
 opt.clipboard = "unnamedplus"
 
 opt.syntax = "on"
@@ -54,7 +55,7 @@ opt.inccommand = "split"
 opt.splitright = true
 opt.splitbelow = true
 opt.termguicolors = true
-opt.colorcolumn = "80"
+opt.colorcolumn = "100"
 
 opt.clipboard:append("unnamedplus")
 -- opt.clipboard 'unnamedplus'
