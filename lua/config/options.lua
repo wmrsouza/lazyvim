@@ -33,11 +33,11 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.lsp.inlay_hint.enable(false)
   end,
 })
-opt.wrao = false
+opt.wrap = true
 opt.clipboard = "unnamedplus"
 
 opt.syntax = "on"
-opt.autoident = true
+opt.autoindent = true
 opt.cursorline = true
 opt.expandtab = false
 opt.shiftwidth = 8
@@ -48,7 +48,7 @@ opt.title = true
 opt.hidden = true
 opt.ttimeoutlen = 0
 opt.wildmenu = true
-opt.showcommand = true
+opt.showcmd = true
 opt.showmatch = true
 opt.inccommand = "split"
 opt.splitright = true
